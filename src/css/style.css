@@ -1,0 +1,109 @@
+body {
+  color: rgb(7, 2, 37);
+  background-color: rgb(236, 242, 245);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 20px;
+  width: 1200px;
+}
+
+.tickets {
+  margin-top: 20px;
+  padding: 20px;
+  min-height: 200px;
+  border: solid 1px #000;
+  border-radius: 10px;
+  background-color: rgb(221, 219, 219);
+}
+
+.ticket {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  width: 800px;
+  margin-bottom: 8px;
+  padding: 8px;
+  border: solid 1px #000;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.ticket-content {
+  box-sizing: border-box;
+  width: 400px;
+  word-wrap: break-word;
+}
+
+.add-btn {
+  padding: 8px;
+  border: solid 1px #000;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.add-btn:hover {
+  background-color: rgb(236, 206, 206);
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 500px;
+  height: 200px;
+  border: solid 1px #000;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.modal-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.modal-title {
+  font-size: 20px;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 400px;
+}
+
+.btn-box {
+  margin-top: 10px;
+}
+
+.delete-modal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 500px;
+  height: 200px;
+  border: solid 1px #000;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.hidden {
+  display: none;
+}
